@@ -3,7 +3,7 @@ author: Anna Boronina
 email: a.boronina@innopolis.university
 telegram: @whoorma
 group: DS-01
-TO RUN: python client.py <full/path/to/file> 127.0.0.1 8080
+TO RUN: python client.py <full/path/to/file> <public_ip> 8080
 """
 
 import socket
