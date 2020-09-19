@@ -3,6 +3,7 @@ author: Anna Boronina
 email: a.boronina@innopolis.university
 telegram: @whoorma
 group: DS-01
+TO RUN: python3 server.py
 """
 
 import socket
