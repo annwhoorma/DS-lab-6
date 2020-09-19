@@ -65,8 +65,8 @@ class NamesMap:
         self.names_map[file_name] = (self.names_map.get(file_name) or 0) + 1
 
         new_file_name = file_name
-        if self.names_map.get(file_name) > 0:
-            new_file_name = '(' + str(self.names_map.get(file_name)) + ')' + file_name
+        if self.names_map.get(file_name) > 1:
+            new_file_name = '(' + str(self.names_map.get(file_name) - 1) + ')' + file_name
         
         return new_file_name
 
